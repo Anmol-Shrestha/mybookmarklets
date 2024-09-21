@@ -16,3 +16,7 @@
 
 })();
 
+
+(function(){
+    alert("Skp ads has been clicked");
+})();
