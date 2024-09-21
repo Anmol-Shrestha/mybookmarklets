@@ -16,6 +16,3 @@
 
 })();
 
-
-(function(){let script  = document.createElement("script");script.src = "skipyoutubeads.js";document.body.appendChild(script);})();
-
