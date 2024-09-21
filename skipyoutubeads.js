@@ -1,6 +1,6 @@
 // videoPlayer.currentTime = videoPlayer.duration
 // Bookmarklet is just named javascript code
-(function skipAds(){
+(function(){
     if (document.getElementByClassName("video-ads")[0].innerHTML !== "") {
         var banner = false;
         for (var i = 0; i < document.getElementsByClassName("ytp-ad-overlay-close-button").length; i++) {
@@ -18,5 +18,6 @@
 
 
 (function(){
-    alert("Skp ads has been clicked");
+
+    console.log("BOok mark has beeb clicked")
 })();
